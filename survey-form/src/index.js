@@ -32,7 +32,7 @@ export class App extends Component {
                     <form-group iden="zip" text="Zip" placeholder="Enter your zip code" />
                     <radio-form-group 
                         text="How are you feeling?"
-                        group="feeling",
+                        group="feeling"
                         options=${
                             [
                                 {name: "Happy", value: "happy"},
@@ -42,7 +42,7 @@ export class App extends Component {
                             ]
                         } />
                     <select-form-group 
-                        text="What would you say is a safe space for you?",
+                        text="What would you say is a safe space for you?"
                         options=${[
                             { value: "home", text: "Home", selected: true},
                             { value: "work", text: "Work"},
@@ -51,8 +51,8 @@ export class App extends Component {
                         ]}
                         />
                     <checked-form-group 
-                        text="Which of the these would be helpful?",
-                        group="helpful",
+                        text="Which of the these would be helpful?"
+                        group="helpful"
                         options=${[
                             {value: "sex-ed", name: "Sex Ed"},
                             {value: "nutrition-services", name: "Nutrition Services"},
