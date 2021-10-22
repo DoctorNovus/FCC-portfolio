@@ -1,0 +1,5 @@
+{
+    "name": "Elon Musk",
+    "input": "src/index.js",
+    "toolchain": "@exalt/toolchain"
+}
