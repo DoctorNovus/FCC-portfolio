@@ -1,0 +1,10 @@
+{
+    "name": "survey-form",
+    "input": "src/index.js",
+    "toolchain": "@exalt/toolchain",
+    "toolchainOptions": {
+        "paths": {
+            "@components": "src/components"
+        }
+    }
+}
