@@ -9,7 +9,7 @@ export class RadioFormGroup extends Component {
             <div class="form-group">
                 <p>${text}</p>
                     ${options.map(option => html`<label><input type="radio" name=${group} value=${option.value}
-                            class="input-radio" ${option.checked ? "true" : ""}>${option.name}</label>`)}
+                            class="input-radio" ${option.checked ? "checked" : ""}>${option.name}</label>`)}
             </div>
         `;
     }

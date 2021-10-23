@@ -14,6 +14,7 @@ export class App extends Component {
     render() {
         return html `
             <div class="container">
+                <img src="computer.png" alt="" />
                 <header class="header">
                     <h1 id="title" class="text-center">Daniel Wedding Survey Form</h1>
                     <p id="description" class="description text-center">
